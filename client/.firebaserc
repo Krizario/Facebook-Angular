@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "facebook-clone-d6334": {
+      "hosting": {
+        "client": [
+          "facebook-clone-d6334"
+        ]
+      }
+    }
+  }
+}
