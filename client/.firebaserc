@@ -2,7 +2,7 @@
   "targets": {
     "facebook-clone-d6334": {
       "hosting": {
-        "client": [
+        "facebook": [
           "facebook-clone-d6334"
         ]
       }

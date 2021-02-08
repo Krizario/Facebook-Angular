@@ -1,1 +1,25 @@
-<p>register works!</p>
+<section class="register">
+    <div class="header">
+      <h3>S’inscrire</h3>
+      <p>C’est rapide et facile.</p>
+    </div>
+  
+    <div class="body">
+      <form #form="ngForm">
+        <div class="user_name">
+          <input type="text" placeholder="Prénom" name="fname" ngModel>
+          <input type="text" placeholder="Nom de famille" name="lname" ngModel>
+        </div>
+  
+        <div class="email_password">
+          <input type="text" placeholder="Numéro de mobile ou e-mail" name="email" ngModel>
+          <input type="text" placeholder="URL de la photo de profile" name="avatar" ngModel>
+          <input type="password" placeholder="Nouveau mot de passe" name="password" ngModel>
+        </div>
+  
+        <p>En cliquant sur S’inscrire, vous acceptez nos Conditions générales. Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre Politique d’utilisation des données et comment nous utilisons les cookies et autres technologies similaires en consultant notre Politique d’utilisation des cookies. Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</p>
+  
+        <button type="submit" class="submit-button" [mat-dialog-close]="form.value">S’inscrire</button>
+      </form>
+    </div>
+  </section>
